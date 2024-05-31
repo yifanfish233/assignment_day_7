@@ -1,0 +1,17 @@
+1. Describe the problem generics address.
+    You can use the same code with different data types without having to rewrite it for each type.
+2. How would you create a list of strings, using the generic List class?
+    List<string> stringList = new List<string>();
+3. How many generic type parameters does the Dictionary class have?
+    Dictionary<TKey, TValue>
+4. False. When a generic class has multiple type parameters, they must all match.
+5. What method is used to add items to a List object?
+    list.Add(item);
+6. Name two methods that cause items to be removed from a List.
+    list.Remove(item);
+    list.RemoveAt(index);
+7. How do you indicate that a class has a generic type parameter?
+    public class GenericClass<T>
+8. False. Generic classes can only have one generic type parameter.
+9. True. Generic type constraints limit what can be used for the generic type.
+10. True. Constraints let you use the methods of the thing you are constraining to.
